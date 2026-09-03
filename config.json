@@ -1,0 +1,30 @@
+{
+  "default_threads": 4,
+  "default_id_length": 11,
+  "output_dir": "./output",
+  "logs_dir": "./logs",
+  "rare_patterns": {
+    "kembar": {
+      "enabled": true,
+      "description": "Angka kembar (111, 222, dst)"
+    },
+    "berulang": {
+      "enabled": true,
+      "description": "Angka berulang (121, 131, dst)"
+    },
+    "urutan": {
+      "enabled": true,
+      "description": "Urutan angka (123, 234, 345, dst)"
+    },
+    "palindrome": {
+      "enabled": true,
+      "description": "Palindrome (12321, 54345, dst)"
+    },
+    "kombinasi_pendek": {
+      "enabled": true,
+      "description": "Kombinasi unik pendek (111222, 123321, dst)"
+    }
+  },
+  "save_formats": ["txt", "json"],
+  "display_refresh_rate": 1
+}
